@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     6.0.608
+@version     6.0.611
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     BSD-2-Clause
@@ -398,15 +398,6 @@
     [data-color-mode=auto][data-dark-theme*=light] {
       --color-mktg-btn-bg: #dcdcdc;
     }
-  }
-  .cgFZpq:hover, .gjQlJX, .jdgHnn th {
-    background-color: var(--bgColor-muted, var(--color-canvas-subtle, #222));
-  }
-  .dIlPa:is(button) {
-    background-color: transparent;
-  }
-  .iuTGUw:is(button) {
-    background-color: transparent;
   }
   [data-color-mode="auto"][data-light-theme="light"],
   [data-color-mode="auto"][data-light-theme="light"] ::backdrop,
@@ -1400,20 +1391,20 @@
   .kBQCgV[data-inactive]:not([disabled]):focus-visible {
     box-shadow: none;
   }
-  .LXqWf {
+  .dPmZyJ {
     background-color: transparent;
   }
-  .LXqWf, .LXqWf:focus:not(:disabled) {
+  .dPmZyJ, .dPmZyJ:focus:not(:disabled) {
     box-shadow: none;
   }
-  .LXqWf:focus-visible:not(:disabled) {
+  .dPmZyJ:focus-visible:not(:disabled) {
     box-shadow: none;
   }
-  .LXqWf:disabled {
+  .dPmZyJ:disabled {
     box-shadow: none;
     background-color: var(--button-invisible-bgColor-disabled, transparent);
   }
-  .LXqWf[data-inactive]:not([disabled]):focus-visible {
+  .dPmZyJ[data-inactive]:not([disabled]):focus-visible {
     box-shadow: none;
   }
   .iQGjqs {
@@ -1433,22 +1424,6 @@
   }
   .iQGjqs:hover:not([disabled]):not([data-inactive]) {
     background-color: var(--button-default-bgColor-hover, var(--color-btn-hover-bg, #242424));
-  }
-  .dPmZyJ {
-    background-color: transparent;
-  }
-  .dPmZyJ, .dPmZyJ:focus:not(:disabled) {
-    box-shadow: none;
-  }
-  .dPmZyJ:focus-visible:not(:disabled) {
-    box-shadow: none;
-  }
-  .dPmZyJ:disabled {
-    box-shadow: none;
-    background-color: var(--button-invisible-bgColor-disabled, transparent);
-  }
-  .dPmZyJ[data-inactive]:not([disabled]):focus-visible {
-    box-shadow: none;
   }
   .iLfocZ {
     background-color: var(--button-default-bgColor-rest, var(--color-btn-bg, #222));
